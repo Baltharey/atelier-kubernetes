@@ -12,7 +12,9 @@ data:
       <head><meta charset="utf-8"><title>Mon site sur Kubernetes</title></head>
       <body>
         <h1>Bienvenue sur mon site</h1>
-        <!-- TODO : personnalisez la page (votre nom, votre groupe...) -->
+        <p>Réalisé par Balthazar REY (RS2)</p>
+        <p>Atelier Kubernetes 2026 — M2 Informatique.</p>
+        <p>Page stockée dans une ConfigMap, servie par 3 pods nginx répartis sur un cluster k3d (1 control plane + 2 workers).</p>
         <p>Servi par Kubernetes.</p>
       </body>
     </html>
